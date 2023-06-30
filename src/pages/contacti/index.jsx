@@ -8,10 +8,10 @@ const Contacti = () => {
   return (
     <div className='menu4'>
       <div className={'menu4_und'}>
-          <Link to={'/collection'}><p className={'textm'}>NEW</p></Link>
+          <Link to={'/catalog'}><p className={'textm'}>NEW</p></Link>
           <Link to={'/catalog'}><p className={'textm'}>КАТАЛОГ</p></Link>
-          <Link to={'/assec'}><p className={'textm'}>АКСЕССУАРЫ</p></Link>
-          <Link to={'/sale'}><p className={'textm'}>SALE</p></Link>
+          <Link to={'/catalog'}><p className={'textm'}>АКСЕССУАРЫ</p></Link>
+          <Link to={'/catalog'}><p className={'textm'}>SALE</p></Link>
       </div>
       <div className='menu4_row'>
         <div className='menu4_row1'>

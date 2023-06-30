@@ -8,10 +8,10 @@ const Catalog = () => {
   return (
     <div className={'menu1'}>
         <div className={'menu1_und'}>
-          <Link to={'/collection'}><p className={'textm'}>NEW</p></Link>
+          <Link to={'/catalog'}><p className={'textm'}>NEW</p></Link>
           <Link to={'/catalog'}><p className={'textm'}>КАТАЛОГ</p></Link>
-          <Link to={'/assec'}><p className={'textm'}>АКСЕССУАРЫ</p></Link>
-          <Link to={'/sale'}><p className={'textm'}>SALE</p></Link>
+          <Link to={'/catalog'}><p className={'textm'}>АКСЕССУАРЫ</p></Link>
+          <Link to={'/catalog'}><p className={'textm'}>SALE</p></Link>
         </div>
         <div className={'menu1_v-love-er'}>V-LOVE-ER</div>
         <div className={'menu1_ph'}>
@@ -69,7 +69,7 @@ const Catalog = () => {
                 <Link to={'/magazini'}><p>НАШИ ПАРТНЕРЫ И МАГАЗИНЫ</p></Link>
               </div>
               <div className='bottomc_row2'>
-                <Link to={'/сontacti'}><p>КОНТАКТЫ</p></Link>
+              <Link to={'/contacti'}><p>КОНТАКТЫ</p></Link>
                 <p>ORDER@VLOVER.RU</p>
                 <p>+7 (929) 375-98-50</p>
               </div>

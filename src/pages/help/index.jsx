@@ -8,14 +8,14 @@ const Help = () => {
   return (
     <div className={'menuhe'}>
        <div className={'menuhe_und'}>
-          <Link to={'/collection'}><p className={'textm'}>NEW</p></Link>
+          <Link to={'/catalog'}><p className={'textm'}>NEW</p></Link>
           <Link to={'/catalog'}><p className={'textm'}>КАТАЛОГ</p></Link>
-          <Link to={'/assec'}><p className={'textm'}>АКСЕССУАРЫ</p></Link>
-          <Link to={'/sale'}><p className={'textm'}>SALE</p></Link>
+          <Link to={'/catalog'}><p className={'textm'}>АКСЕССУАРЫ</p></Link>
+          <Link to={'/catalog'}><p className={'textm'}>SALE</p></Link>
         </div>
         <div className='menuhe_fun'>
           <Link className='vid' to={'/help'} ><p>ОПЛАТА/ДОСТАВКА</p></Link>
-          <Link to={'/vozvrat'}><p>ВОЗВРАТ</p></Link>
+          <Link to={'/'}><p>ВОЗВРАТ</p></Link>
         </div>
         <div className='menuhe_dostavka'>
           ОПЛАТА/ДОСТАВКА

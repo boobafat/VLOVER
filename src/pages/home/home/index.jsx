@@ -8,7 +8,7 @@ const HomePage = () => {
   return (
       <div className='home'>
           <div className = "home_left">
-            <Link to={'/collection'}><img src='./home/leftph.svg'/></Link>
+            <Link to={'/catalog'}><img src='./home/leftph.svg'/></Link>
           </div>
           <div className = "home_right">
             <Link to={'/catalog'}><img className='right' src='./home/right.svg'/></Link>

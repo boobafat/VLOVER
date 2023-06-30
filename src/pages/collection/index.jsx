@@ -10,10 +10,10 @@ const Collection = () => {
   return (
     <div className='menuu'>
       <div className={'menu_und'}>
-          <Link to={'/collection'}><p>NEW</p></Link>
+          <Link to={'/catalog'}><p>NEW</p></Link>
           <Link to={'/catalog'}><p>КАТАЛОГ</p></Link>
-          <Link to={'/assec'}><p>АКСЕССУАРЫ</p></Link>
-          <Link to={'/sale'}><p>SALE</p></Link>
+          <Link to={'/catalog'}><p>АКСЕССУАРЫ</p></Link>
+          <Link to={'/catalog'}><p>SALE</p></Link>
       </div>
       <div className="menu__slider">
       </div>

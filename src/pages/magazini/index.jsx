@@ -8,10 +8,10 @@ const Magazini = () => {
   return (
     <div className='menu3'>
         <div className={'menu3_und'}>
-          <Link to={'/collection'}><p className={'textm'}>NEW</p></Link>
+          <Link to={'/catalog'}><p className={'textm'}>NEW</p></Link>
           <Link to={'/catalog'}><p className={'textm'}>КАТАЛОГ</p></Link>
-          <Link to={'/assec'}><p className={'textm'}>АКСЕССУАРЫ</p></Link>
-          <Link to={'/sale'}><p className={'textm'}>SALE</p></Link>
+          <Link to={'/catalog'}><p className={'textm'}>АКСЕССУАРЫ</p></Link>
+          <Link to={'/catalog'}><p className={'textm'}>SALE</p></Link>
         </div>
         <div className='menu3_magazini'>
           МАГАЗИНЫ
