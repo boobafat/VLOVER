@@ -1,0 +1,17 @@
+.footer{
+    display: inline-flex;
+    background: #000;
+    height: 188px;
+    flex-shrink: 0;
+    a{
+        text-decoration: none;
+        color: #FFF;
+    }
+    &__text1{
+    }
+    &__text2{
+    }
+    &__text3{
+
+    }
+}

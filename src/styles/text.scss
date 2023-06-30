@@ -1,0 +1,38 @@
+body,
+html {
+background-color: #DEDEDE;
+}
+
+html,
+body,
+#root {
+overflow-x: hidden;
+}
+
+.small-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.large-text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.medium-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+@media (max-width: 992px) {
+  .medium-text {
+    font-size: 12px;
+    line-height: 17px;
+  }
+}

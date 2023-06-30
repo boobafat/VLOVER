@@ -1,0 +1,100 @@
+.menu{
+    width: 1920px;
+    max-width: 1920px;
+    height: auto;
+    display: flex;
+    p{
+        margin: 0;
+        padding: 0;
+    }
+    &__new{
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+        position: absolute;
+        left: 530px;
+        top:60px;
+        color: #000;
+        font-size: 24px;
+    }
+    &__catalog{
+        color: #000;
+        font-size: 24px;
+        flex-direction: column;
+        flex-shrink: 0;
+        position: absolute;
+        left: 600px;
+        top:60px;
+    }
+    &__asec{
+        color: #000;
+        font-size: 24px;
+        flex-direction: column;
+        flex-shrink: 0;
+        position: absolute;
+        left: 720px;
+        top:60px;
+    }
+    &__sale{
+        color: #000;
+        font-size: 24px;
+        flex-direction: column;
+        flex-shrink: 0;
+        position: absolute;
+        left: 890px;
+        top:60px;
+    }
+    &__oplataa{
+        display: flex;
+        width: 270px;
+        flex-direction: column;
+        flex-shrink: 0;
+        color: #000;
+        font-size: 24px;
+        font-weight: 750;
+        top: 150px;
+        left: 14px;
+        position: absolute;
+        text-decoration: none;
+    }
+    &__vozvrat{
+        display: flex;
+        width: 300px;
+        flex-direction: column;
+        flex-shrink: 0;
+        color: #000;
+        font-size: 24px;
+        font-weight: 750;
+        top: 180px;
+        left: 14px;
+        position: absolute;
+        text-decoration: #888888 underline;
+    }
+    &__vozv{
+        display: flex;
+        width: 100px;
+        height: 15px;
+        transform: rotate(-90deg);
+        flex-direction: column;
+        flex-shrink: 0;
+        color: #9D9D9D;
+        font-size: 78px;
+        font-weight: 800;
+        top:470px;
+        left: 575px;
+        position: absolute;
+    }
+    &__textt{
+        display: flex;
+        width: 735px;
+        height: 842px;
+        flex-direction: column;
+        flex-shrink: 0;
+        position: absolute;
+        color: #000;
+        font-size: 16px;
+        left:730px;
+        top:150px;
+        font-weight: 800;
+    }
+}

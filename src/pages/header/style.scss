@@ -1,0 +1,222 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #000;
+  box-sizing: border-box;
+  padding: 10px 40px;
+  text-align: center;
+  z-index: 105;
+  min-height: 60px;
+  overflow: hidden;
+  min-width: 768px;
+  margin: 0 auto;
+  overflow: visible;
+  a{
+    text-decoration: none;
+    color: #fff;
+  }
+  &__vlover{
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 70px;
+    top: 15px;
+    text-decoration: none;
+    cursor: default;
+    transition: all 0.2s ease-in-out 0s;
+    backface-visibility: hidden;
+    transform: translate3d(0, 0, 0);
+    z-index: 105;
+  }
+  &__profile img{
+    float: right;
+    display: block;
+    width: 34px;
+    height: 34px;
+    position: relative;
+    right: 175px;
+    z-index: 105;
+    top: 1.8px;
+  }
+  &__find img{
+    float: right;
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    right: 95px;
+    z-index: 105;
+    top: 4px;
+  }
+  &__favorite img{
+    float: right;
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    right: 20px;
+    z-index: 105;
+    top: 4px;
+  } 
+  &__shop img{
+    float: right;
+    display: block;
+    width: 28px;
+    height: 28px;
+    position: relative;
+    right: -55px;
+    z-index: 105;
+    top: 4px;
+  } 
+}
+.header-mobile {
+  display: none;
+}
+
+@media (max-width: 992px) {
+  .header {
+    position: fixed;
+    display: none;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #000;
+    box-sizing: border-box;
+    padding: 10px 40px;
+    text-align: center;
+    z-index: 105;
+    min-height: 60px;
+    overflow: hidden;
+    min-width: 768px;
+    margin: 0 auto;
+    overflow: visible;
+    a{
+      text-decoration: none;
+      color: #fff;
+    }
+    &__vlover{
+      color: #fff;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 24px;
+      text-transform: uppercase;
+      position: absolute;
+      left: 60px;
+      top: 15px;
+      text-decoration: none;
+      cursor: default;
+      transition: all 0.2s ease-in-out 0s;
+      backface-visibility: hidden;
+      transform: translate3d(0, 0, 0);
+      z-index: 105;
+    }
+    &__profile{
+      float: right;
+    display: block;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    }
+    &__find img{
+      float: right;
+      display: block;
+      width: 24px;
+      height: 24px;
+      position: relative;
+      right: 95px;
+      z-index: 105;
+      top: 4px;
+    }
+    &__favorite img{
+      float: right;
+      display: block;
+      width: 24px;
+      height: 24px;
+      position: relative;
+      right: 20px;
+      z-index: 105;
+      top: 4px;
+    } 
+    &__shop img{
+      float: right;
+      display: block;
+      width: 24px;
+      height: 24px;
+      position: relative;
+      right: -55px;
+      z-index: 105;
+      top: 4px;
+    } 
+  }
+  .header-mobile {
+    display: flex;
+    flex-direction: column;
+    .berger{
+      width: 24px;
+      height: 22px;
+    }
+    .tekst_logo{
+      color: #fff;
+      font-weight: 700;
+      font-size: 20px;
+      padding: 0;
+    }
+    &__menu {
+      padding: 10px 40px;
+      background: #000;
+      display: flex;
+      a{
+        text-decoration: none;
+        color: #fff;
+      }
+      > div:last-child {
+        margin-left: auto;
+        left: 200px;
+        top: 31px;
+        color: #fff;
+        display: flex;
+      }
+    }
+    &__block {
+      position: absolute;
+      max-height: 0px;
+      margin-top: 100px;
+      transition: max-height 0.3s cubic-bezier(0, 1, 0, 1);
+      background-color: #000;
+    }
+    &__block-open {
+      max-height: 270px;
+      transition: max-height 0.3s cubic-bezier(1, 1, 1, 1);
+      height: 100vh;
+      left: 187px;
+      top: -62px;
+      width: 210px;
+      > div {
+        padding-top: 10px;
+        padding-left: 24px;
+        a {
+          font-style: normal;
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 0px;
+          color: #fff;
+          text-decoration: none;
+          transition: 0.3s;
+          opacity: 0.8;
+          z-index: 1;
+          position: relative;
+        }
+        a:hover {
+          opacity: 0.6;
+        }
+      }
+    }
+    .inm{
+    }
+}
+}

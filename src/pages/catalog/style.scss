@@ -1,0 +1,289 @@
+.menu1{
+    display: flex;
+    margin-top: 38px;
+    flex-direction: column;
+    a{
+        text-decoration: none;
+        color: #000;
+    }
+ 
+}
+.ph{
+    width: 320px;
+    border: solid;
+    height: 290px;
+    background-color: #fff;
+}
+.menu1_und{
+    display: flex;
+    word-spacing: 5px;
+    color: #000000;
+    font-size: 24px;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+}
+.menu1_v-love-er{
+    display: flex;
+    color: #000;
+    font-size: 24px;
+    margin-top: 50px;
+    font-weight: 700;
+    padding-left: 85px;
+}
+.menu1_ph{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    justify-content: space-evenly;
+}
+.menu1_ph1{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    .textp{
+        margin-top: 0px;
+        padding-top: 0px;
+        border: solid;
+        width: 318px;
+        background-color: #fff;
+        padding: 8px;
+        display: flex;
+        display: flex;
+        color: #000;
+        justify-content: space-evenly;
+        padding-left: 1px;
+        font-weight: 600;
+        padding-right: 1px;
+    }
+}
+.menu2_ph{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    justify-content: space-evenly;
+}
+.menu2_ph1{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    .textp{
+        margin-top: 0px;
+        padding-top: 0px;
+        border: solid;
+        width: 318px;
+        background-color: #fff;
+        padding: 8px;
+        display: flex;
+        display: flex;
+        color: #000;
+        justify-content: space-evenly;
+        padding-left: 1px;
+        font-weight: 600;
+        padding-right: 1px;
+    }
+}
+.menu1_ph11{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.menu1_ph2{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.menu2_ph11{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.menu2_ph2{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.textm{
+    padding: 8px;
+}
+.bottomc{
+    position: absolute;
+    width: 100%;
+    height: 171px;
+    top: 1000px;
+    background: #000;
+    font-size: 14px;
+    font-weight: 600;
+    left: 0px;
+    a{
+      text-decoration: none;
+      color: #fff;
+    }
+  }
+.bottomc_row{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding-right: 140px;
+    padding-left: 34px;
+}
+  
+.vkc{
+    width: 32px;
+    height: 32px;
+}
+  
+.visac{
+    width: 60px;
+    height: 32px;
+    padding-rifht: 30px;
+  }
+@media (max-width: 992px) {
+    .menu1{
+        display: flex;
+        margin-top: 38px;
+        flex-direction: column;
+        a{
+            text-decoration: none;
+            color: #000;
+        }
+     
+    }
+    .ph{
+        width: 180px;
+        border: solid;
+        height: 150px;
+        background-color: #fff;
+    }
+    .menu1_und{
+        display: none;
+        word-spacing: 5px;
+        color: #000000;
+        font-size: 24px;
+        font-weight: 500;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu1_v-love-er{
+        display: flex;
+        color: #000;
+        font-size: 24px;
+        margin-top: 50px;
+        font-weight: 700;
+        padding-left: 15px;
+    }
+    .menu1_ph{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 10px;
+        justify-content: space-evenly;
+    }
+    .menu1_ph1{
+        padding: 0px;
+        margin: 0px;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 10px;
+        flex-direction: column;
+        .textp{
+            margin-top: 0px;
+            padding-top: 0px;
+            border: solid;
+            width: 178px;
+            background-color: #fff;
+            padding: 8px;
+            display: flex;
+            display: flex;
+            color: #000;
+            justify-content: space-evenly;
+            padding-left: 1px;
+            font-weight: 600;
+            padding-right: 1px;
+        }
+    }
+    .menu2_ph{
+        display: flex;
+        justify-content: space-between;
+        justify-content: space-evenly;
+    }
+    .menu2_ph1{
+        padding: 0px;
+        margin: 0px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        .textp{
+            margin-top: 0px;
+            padding-top: 0px;
+            border: solid;
+            width: 178px;
+            background-color: #fff;
+            padding: 8px;
+            display: flex;
+            display: flex;
+            color: #000;
+            justify-content: space-evenly;
+            padding-left: 1px;
+            font-weight: 600;
+            padding-right: 1px;
+        }
+    }
+    .menu1_ph11{
+        display: flex;
+        justify-content: center;
+        justify-content: space-evenly;
+    }
+    .menu1_ph2{
+        display: flex;
+        justify-content: center;
+        justify-content: space-evenly;
+    }
+    .menu2_ph11{
+        display: flex;
+        justify-content: center;
+        justify-content: space-evenly;
+    }
+    .menu2_ph2{
+        display: flex;
+        justify-content: center;
+        justify-content: space-evenly;
+    }
+    .textm{
+        padding: 8px;
+    }
+    .bottomc{
+        position: absolute;
+        width: 100%;
+        height: 130px;
+        top: 1100px;
+        background: #000;
+        font-size: 8px;
+        font-weight: 600;
+        left: 0px;
+        a{
+        text-decoration: none;
+        color: #fff;
+        }
+      }
+    .bottomc_row{
+        display: flex;
+        justify-content: space-between;
+        color: #fff;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+      
+    .vkc{
+        width: 13px;
+        height: 10px;
+    }
+      
+    .visac{
+        width: 24px;
+        height: 18px;
+      }
+  }

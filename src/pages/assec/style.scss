@@ -1,0 +1,229 @@
+.menu{
+    width: 1920px;
+    max-width: 1920px;
+    height: auto;
+    display: flex;
+    a{
+        text-decoration: none;
+        color: #000;
+    }
+    &__new{
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+        position: absolute;
+        left: 530px;
+        top:60px;
+        color: #000;
+        font-size: 24px;
+        z-index: 1;
+    }
+    &__catalog{
+        color: #000;
+        font-size: 24px;
+        flex-direction: column;
+        flex-shrink: 0;
+        position: absolute;
+        left: 600px;
+        top:60px;
+        z-index: 1;
+    }
+    &__asec{
+        color: #000;
+        font-size: 24px;
+        flex-direction: column;
+        flex-shrink: 0;
+        position: absolute;
+        left: 720px;
+        top:60px;
+        z-index: 1;
+    }
+    &__sale{
+        color: #000;
+        font-size: 24px;
+        flex-direction: column;
+        flex-shrink: 0;
+        position: absolute;
+        left: 890px;
+        top:60px;
+    }
+    &__krash{
+        color: #000;
+        font-size: 32px;
+        position: absolute;
+        left: 14px;
+        top:165px;
+        font-weight: 700;
+    }
+    &__s1{
+        width: 342px;
+        height: 360px;
+        flex-shrink: 0;
+        border: 2px solid #000;
+        background: #FFF;
+        position: absolute;
+        top: 210px;
+        left: 14px;
+        &__price{
+            width: 341px;
+            height: 76px;
+            flex-shrink: 0;
+            border: 2px solid #000;
+            background: #FFF;
+            position: absolute;
+            left: -1px;
+            top: 284px;
+            &__text1{
+                color: #000;
+                font-size: 14px;
+                font-weight: 700;
+                flex-direction: column;
+                flex-shrink: 0;
+                position: absolute;
+                left: 10px;
+                top:10px;
+            }
+            &__text2{
+                color: #000;
+                font-size: 14px;
+                font-weight: 700;
+                flex-direction: column;
+                flex-shrink: 0;
+                position: absolute;
+                left: 10px;
+                top: 35px;
+            }
+            button{
+                width: 150px;
+                height: 30px;
+                font-size: 14px;
+                position: absolute;
+                left:150px;
+                top: 20px;
+                background-color: #dedede;
+                margin: 0em;
+                color: #000;
+                border-radius: 5px;
+                font-weight: 700;
+            }
+        }
+    }
+    &__kover{
+        color: #000;
+        font-size: 32px;
+        position: absolute;
+        left: 14px;
+        top: 600px;
+        font-weight: 700;
+    }
+    &__s2{
+        width: 342px;
+        height: 360px;
+        flex-shrink: 0;
+        border: 2px solid #000;
+        background: #FFF;
+        position: absolute;
+        top: 650px;
+        left: 14px;
+        &__ph img{
+            position: absolute;
+            left: 55px;
+        }
+        &__price{
+            width: 341px;
+            height: 76px;
+            flex-shrink: 0;
+            border: 2px solid #000;
+            background: #FFF;
+            position: absolute;
+            left: -1px;
+            top: 284px;
+            &__text1{
+                color: #000;
+                font-size: 14px;
+                font-weight: 700;
+                flex-direction: column;
+                flex-shrink: 0;
+                position: absolute;
+                left: 10px;
+                top:10px;
+            }
+            &__text2{
+                color: #000;
+                font-size: 14px;
+                font-weight: 700;
+                flex-direction: column;
+                flex-shrink: 0;
+                position: absolute;
+                left: 10px;
+                top: 35px;
+            }
+            button{
+                width: 150px;
+                height: 30px;
+                font-size: 14px;
+                position: absolute;
+                left:150px;
+                top: 20px;
+                background-color: #dedede;
+                margin: 0em;
+                color: #000;
+                border-radius: 5px;
+                font-weight: 700;
+            }
+        }
+    }
+    &__s3{
+        width: 342px;
+        height: 360px;
+        flex-shrink: 0;
+        border: 2px solid #000;
+        background: #FFF;
+        position: absolute;
+        top: 650px;
+        left: 370px;
+        &__price{
+            width: 341px;
+            height: 76px;
+            flex-shrink: 0;
+            border: 2px solid #000;
+            background: #FFF;
+            position: absolute;
+            left: -1px;
+            top: 284px;
+            &__text1{
+                color: #000;
+                font-size: 14px;
+                font-weight: 700;
+                flex-direction: column;
+                flex-shrink: 0;
+                position: absolute;
+                left: 10px;
+                top:10px;
+            }
+            &__text2{
+                color: #000;
+                font-size: 14px;
+                font-weight: 700;
+                flex-direction: column;
+                flex-shrink: 0;
+                position: absolute;
+                left: 10px;
+                top: 35px;
+            }
+            button{
+                width: 150px;
+                height: 30px;
+                font-size: 14px;
+                position: absolute;
+                left:150px;
+                top: 20px;
+                background-color: #dedede;
+                margin: 0em;
+                color: #000;
+                border-radius: 5px;
+                font-weight: 700;
+            }
+        }  
+    }
+}
